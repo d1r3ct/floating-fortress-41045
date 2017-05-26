@@ -6,7 +6,16 @@ dependencies:
   - requests
   # bind ipython version (compatibility to pgcontents)
   - ipython = 5
+  - certifi
+  - click
+  - cryptography 
+  - mako
+  - psycopg2
+  - six
+  - sqlalchemy
+  - nose
   - pip:
+    - pgcontents
     - numpy
     - scipy
     - pandas
